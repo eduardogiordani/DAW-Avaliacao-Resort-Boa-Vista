@@ -2,6 +2,8 @@
 
 Este projeto foi desenvolvido como parte da atividade bimestral do curso, aplicando os conceitos de HTML e CSS aprendidos no módulo 3. O objetivo foi criar um site com uma estrutura básica, utilizando tags semânticas e técnicas de estilização para garantir uma navegação fluida e um layout responsivo.
 
+- [Link para a pagina do projeto (.io)](https://eduardogiordani.github.io/DAW-Avaliacao-Resort-Boa-Vista/)
+
 ## Estrutura do Projeto
 
 O site consiste em uma única página, com a seguinte estrutura:
