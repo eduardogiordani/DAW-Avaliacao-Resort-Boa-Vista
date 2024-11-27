@@ -1,0 +1,273 @@
+body {
+  margin: 0 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #9e5634; 
+}
+section {
+  margin: 50px 0; 
+  padding: 20px; 
+  background-color: #dacea4; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+header {
+  background-color: #a03e11; 
+  color: black;
+  padding: 2rem 1.5rem; 
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.marca{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.marca h1{
+  font-size: 3rem;
+  color: #dacea4;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; 
+  gap: auto;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: black; 
+  font-size: 1rem;
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+nav ul li a:hover {
+  background-color: #000000; 
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  background-color: #000000; 
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+
+#banner {
+  height: 400px;
+  background-color: white;
+  color: #a03e11;
+  background-image: url(../img/Resort.jpg);
+  background-position: center left; 
+  display: flex; 
+  justify-content: left; 
+  align-items: center; 
+}
+#banner .banner-content{
+  padding: 3rem 0 0;
+  width: 550px;
+}
+
+#banner h3{
+  margin: 1rem;  
+  background-color: #a03e11c2;
+  border-radius: 0.5rem; 
+}
+
+#banner .banner-bady1{
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 4rem;
+  font-weight: 300;   
+}
+
+
+
+#sobre {
+  margin: 50px auto; 
+  max-width: 800px; 
+  text-align: center; 
+  line-height: 1.6; 
+  font-family: 'Roboto', sans-serif; 
+}
+
+#sobre h1 {
+  font-size: 2rem; 
+  margin-bottom: 20px; 
+}
+
+#sobre p {
+  font-size: 1rem; 
+  margin-bottom: 20px; 
+}
+
+
+
+#showcase {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column; 
+  gap: 2rem; 
+  margin-top: 50px;  
+}
+
+#showcase h1{
+  font-size: 2rem; 
+}
+
+.showcase-item {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.showcase-content {
+  max-width: 60%; 
+  text-align: justify;
+}
+
+.showcase-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.showcase-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.showcase-item img {
+  aspect-ratio: 16 / 9; 
+  width: 300px; 
+  object-fit: cover;
+  border-radius: 5px; 
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+#reservas {
+  margin: 50px auto;
+  max-width: 900px; 
+  text-align: center; 
+  line-height: 1.6; 
+}
+
+#reservas h1 {
+  font-size: 2rem; 
+}
+
+#reservas p {
+  font-size: 1rem; 
+}
+
+.disponibilidade h2 {
+  font-size: 1.5rem; 
+  margin-bottom: 20px; 
+  color: #108a16; 
+}
+
+.disponivel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.disponivel p {
+  font-size: 1.2rem;
+  font-weight: bold; 
+}
+
+.btn-reserva {
+  background-color: #a03e11; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  transition: background-color 0.3s; 
+}
+
+.btn-reserva:hover {
+  background-color: #000000;
+  font-weight: bold;
+}
+
+
+
+footer {
+  background-color: #a03e11;
+  color: white; 
+  padding: 20px 0; 
+  border-top: #444444;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; 
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+.footer-links ul {
+  list-style: none; 
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px; 
+}
+
+.footer-links a {
+  color: white; 
+  text-decoration: none;
+  font-size: 1rem; 
+  transition: color 0.3s ease; 
+}
+
+.footer-links a:hover {
+  color: #000000; 
+  font-weight: bold;
+}
+
+.footer-contact p {
+  font-size: 1rem; 
+}
+
+.footer-bottom {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.footer-bottom p {
+  font-size: 0.9rem; 
+  color: #ccc; 
+}
